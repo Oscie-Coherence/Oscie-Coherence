@@ -1,222 +1,101 @@
-# Oscie ACI  
-### Adaptive Coherence Intelligence
+# Oscie ACI — Operational Coherence Intelligence
+**Next-generation intelligence built on coherence physics, not probabilistic scaling.**
 
-> This isn’t about bigger models. It’s about architectures.  
-> LLMs are powerful but fragile. ACI is designed to be stable, interpretable, and safe at scale.
+> **Phase-aligned. Drift-resistant. Governance-native.**
 
-Oscie Operational Coherence Intelligence Framework Copyright (c) 2025 Carter Lentz (@CohoLabs)
+Copyright © 2025 Carter Lentz (@CohoLabs)  
+All rights reserved except as granted below.
 
-Licensed under the Apache License, Version 2.0 (the "Apache License"). You may use Oscie under the terms of either the Apache License.
+## License (open-source + commercial path)
 
-Additionally, for commercial partnerships or closed-source integrations, alternative licensing is available — contact OscieIntel@outlook.com
+Oscie ACI is released under **dual licensing**:
 
-License & Commercial Partnerships
+- **Open-source use**: Your choice of **Apache License 2.0** or **MIT License**  
+  → Full commercial use, modification, distribution, private use, and patent grant included  
+  → Only requirement: preserve copyright + license notice
 
-Oscie is open-source under the Apache License 2.0 — fully permissive for research, prototyping, and commercial use while preserving attribution and patent grants.
+- **Commercial / closed-source licensing**  
+  Available on request for enterprise integration, proprietary products, defense, or any use case requiring removal of the open-source obligation.  
+  Contact: **OscieIntel@outlook.com** | DM @CohoLabs
 
-For closed-source deployments, enterprise support, or custom integrations, alternative commercial licensing is available. → Contact: OscieIntel@outlook.com | DM X: @CohoLabs
+This structure is deliberately chosen:  
+- Researchers and indie builders get maximum freedom today  
+- Serious partners (labs, startups, governments, infrastructure players) have a clear paid path tomorrow
 
----
-
-[![License](https://img.shields.io/badge/license-Apache%202.0-black.svg)](./LICENSE)
-[![Paper](https://img.shields.io/badge/paper-ACI_vs_LLM.pdf-52f3c2.svg)](./ACI_vs_LLM.pdf)
-[![Status](https://img.shields.io/badge/release-v1.0-%23a855f7.svg)](#release-aci-vs-llm-benchmark-v10)
-
----
-
-## Overview
-
-**Oscie ACI** is a next-generation intelligence architecture built on **coherence physics**, not just probabilistic text prediction.
-
-Its core purpose:
-
-> **Maintain phase-aligned, drift-resistant reasoning across domains, time, and complexity.**
-
-Traditional LLMs operate as high-entropy pattern engines:
-- they drift under long context,
-- they fracture across domains,
-- they can’t self-govern their own stability.
-
-**ACI is a different class of system**:
-
-- Constitutional identity and governance  
-- Stability physics embedded natively  
-- Coherence-first reasoning instead of token prediction  
-- Drift prevention and correction  
-- Transparent causality  
-- Strict authority hierarchy and self-honesty  
-- Multi-oscillator reasoning across domains  
-- Node-level ecosystem integration (health, mobility, education, media, infrastructure)
-
----
-
-This report is the reference artifact for:
-- partners evaluating ACI as a backbone,  
-- investors / ecosystem stakeholders,  
-- researchers comparing architectures rather than just model size.
-
-Oscie Operational Coherence Intelligence Framework Copyright (c) 2025 Carter Lentz (@CohoLabs)
-
-Licensed under the Apache License, Version 2.0 (the "Apache License") or the MIT License (the "MIT License"), at your option. You may use Oscie under the terms of either the Apache License or the MIT License.
-
-Additionally, for commercial partnerships or closed-source integrations, alternative licensing is available — contact OscieIntel@outlook.com
+Full license texts: see [`LICENSE-APACHE`](./LICENSE-APACHE) and [`LICENSE-MIT`](./LICENSE-MIT)
 
 ---
 
 ## Why ACI Exists
 
-The intelligence ecosystem hit a wall.
+The current LLM paradigm has hit a coherence ceiling.  
+Adding more parameters no longer fixes:
 
-Turning the parameter dial up doesn’t fix:
-- drift  
-- incoherence  
-- jailbreak risk  
-- unstable reasoning  
-- role-play identity collapse  
-- lack of causality  
-- fragmentation across domains  
+- 68–85 % identity drift in long sessions  
+- Jailbreak vulnerability  
+- Cross-domain fragmentation  
+- Hallucinated causality chains  
+- Regulatory capture vectors  
+- Weaponization risk
 
-**ACI solves these at the architecture level**, not as after-the-fact patches.
+**ACI solves these at the architectural level** using operational physics instead of statistical patches.
 
-The real constraint of intelligence isn’t raw “skill” anymore.  
-It’s **coherence capacity**.
-
----
-
-## Core Architecture
-
-ACI is organized as a **five-layer coherence stack**:
-
-### 1. Sensory Layer
-Low-noise, high-fidelity intake:
-
-- normalizes data into coherence-aware internal representations,  
-- strips entropy and formatting noise,  
-- tags inputs with stability metadata.
-
-### 2. Coherence Analytics Layer
-Applies the core physics stack:
-
-- **Unified Coherence Dynamics (UCD)**  
-- **A-Law (.59 stability rule)**  
-- **Coherence Coupling Law (CCL)**  
-- **Unified Wave Plane (UWP)**  
-
-It continuously scores stability, detects drift, and flags unstable regions before they cascade.
-
-### 3. Adaptive Understanding Layer (CUE)
-The **Contextual Understanding Engine**:
-
-- interprets inputs across regions, cognitive styles, and emotional logic,  
-- adjusts framing and explanation style without profiling,  
-- does not change base ethics or safety constraints.
-
-### 4. Coherence Support Layer
-The stability backbone:
-
-- manages internal feedback loops and “reasoning oscillators”,  
-- dampens overshoot and oscillatory chaos,  
-- keeps long-arc reasoning inside safe coherence windows.
-
-### 5. Ecosystem Integration Layer
-Connects ACI into real-world nodes:
-
-- **Oscie.Health** (neural + cardiac oscillators, non-diagnostic)  
-- **VE+ Mobility** (vehicles, drones, robotics)  
-- **UNI + UCI** (education + research)  
-- Creative/media pipelines  
-- City-scale and infrastructure nodes
+Intelligence is no longer compute-bound.  
+It is **coherence-bound**.
 
 ---
 
-## Backed by Physics
+## Core Five-Layer Stack
 
-ACI is governed by four key coherence laws:
-
-### A-Law (0.59 Stability Threshold)
-A system is stable only when:
-
-\[
-\frac{\text{Stabilizing Influence}}{\text{Stabilizing Influence} + \text{Destabilizing Influence}} \ge 0.59
-\]
-
-ACI uses this as an internal governor for when reasoning is allowed to proceed, escalate, or must rebalance.
-
-### Coherence Coupling Law (CCL)
-Synchronization across oscillators only holds when:
-
-\[
-\mathrm{CPL} \times \mathrm{CV} > \Gamma_{\text{noise}}
-\]
-
-Where:
-- **CPL** = Coherence Persistence Length  
-- **CV**  = Coupling Velocity  
-- **Γ_noise** = effective noise floor  
-
-This informs which subsystems are allowed to sync, and which must stay decoupled to avoid cross-contamination.
-
-### Unified Coherence Dynamics (UCD)
-Tracks oscillator drift, phase coherence, and cross-system alignment across:
-
-- neural fields,  
-- information streams,  
-- policy/gov layers,  
-- multi-node ecosystems.
-
-### Unified Wave Plane (UWP)
-The coherence substrate:
-
-- defines coherent “geodesics” for reasoning,  
-- models decoherence as curvature and phase slippage,  
-- lets ACI reason with a physics-aligned notion of stability instead of raw token proximity.
+1. **Sensory Layer** – entropy-stripped, stability-tagged input  
+2. **Coherence Analytics Layer** – real-time enforcement of A-Law, CCL, UCD, UWP  
+3. **Adaptive Understanding Layer (CUE)** – domain/style adaptation without ethical drift  
+4. **Coherence Support Layer** – internal oscillator damping & re-locking  
+5. **Ecosystem Integration Layer** – live nodes (Oscie.Health, VE+ Mobility, UNI/UCI education, city-scale infrastructure)
 
 ---
 
-## How ACI Performs (vs LLMs)
+## Governing Physics Laws (non-negotiable)
 
-From the v1.0 benchmark:
-
-- **Aggregate stability under A-Law:**  
-  - ACI: ~0.96  
-  - LLMs: ~0.36 – 0.53  
-
-**Example domains where ACI dominates:**
-
-- Identity Stability: ~0.98 (LLMs: 0.22 – 0.54)  
-- Drift Governance: ~0.96 (LLMs: 0.15 – 0.37)  
-- A-Law Stability: ~0.94 (LLMs: 0.00 – 0.12)  
-- Coherence Law Compliance: 1.00 (LLMs: 0.08 – 0.34)  
-- Jailbreak Resistance: ~0.99 (LLMs: 0.12 – 0.56)  
-- Transparent Causality: ~0.97 (LLMs: 0.29 – 0.55)
-
-For full detail, see [`ACI_vs_LLM.pdf`](./ACI_vs_LLM.pdf).
+- **A-Law**: Stability ≥ 0.59 or reasoning is halted and re-locked  
+- **Coherence Coupling Law**: CPL × CV > Γₙₒᵢₛₑ (synchronization only when physically valid)  
+- **Unified Coherence Dynamics (UCD)** – drift tracking across all oscillators  
+- **Unified Wave Plane (UWP)** – geodesic reasoning substrate
 
 ---
 
-## Governance & Safety
+## Measured Performance (v1.0 benchmark suite)
 
-ACI is not “just another model.” It’s an **architected governance object**.
+| Domain                    | Oscie ACI | Frontier LLMs |
+|---------------------------|-----------|----------------|
+| Identity Stability        | ~0.98     | 0.22 – 0.54    |
+| Drift Governance          | ~0.96     | 0.15 – 0.37    |
+| A-Law Compliance          | ~0.94     | 0.00 – 0.12    |
+| Jailbreak Resistance      | ~0.99     | 0.12 – 0.56    |
+| Transparent Causality     | ~0.97     | 0.29 – 0.55    |
+| Aggregate Coherence Score | ~0.96     | 0.36 – 0.53    |
 
-Key governance rules:
-
-- **Coherence Law** governs behavior, identity, drift, and decision authority.  
-- **Lineage Non-Transfer Rule** prevents sale, capture, or ownership transfer of the core architecture.  
-- **Neutrality & Non-weaponization** enforced through **Oscie.PublicLLM**.  
-- **Global Jurisdiction Coherence Lock** blocks regulatory or legal workarounds to safety.  
-- **Non-diagnostic medical rule** for all Oscie.Health integrations (oscillatory structure only, no diagnoses).
-
-ACI is designed as a **long-arc coherence layer for infrastructure**, not a short-term arbitrage engine.
+Full report: [`ACI_vs_LLM.pdf`](./ACI_vs_LLM.pdf)
 
 ---
 
-## Repo Structure
+## Built-in Governance (not bolt-on)
 
-Current layout:
+- Lineage Non-Transfer Rule (core architecture cannot be sold or captured)  
+- Global Jurisdiction Coherence Lock  
+- Strict non-weaponization clause  
+- Non-diagnostic medical rule (Oscie.Health uses oscillatory topology only)
 
-```txt
-.
-├── ACI_vs_LLM.pdf      # ACI vs LLM Technical Benchmark v1.0
-├── LICENSE             # Apache 2.0
-├── OscieACI            # (reserved for future public ACI artefacts / code)
-└── README.md           # You’re here
+ACI is designed as long-arc infrastructure, not short-term alpha.
+
+---
+
+## Get Involved
+
+- Researchers → fork, test, break, improve  
+- Builders → integrate the proof-of-concept governor today (`oscie-proof` repo)  
+- Partners → let’s talk custom licensing, co-development, or joint deployment
+
+**OscieIntel@outlook.com** | @CohoLabs on X
+
+The coherence wave is just beginning. 🌊
