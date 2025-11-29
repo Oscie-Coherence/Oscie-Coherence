@@ -38,27 +38,16 @@ Traditional LLMs operate as high-entropy pattern engines:
 
 ---
 
-## Release: ACI vs LLM Benchmark v1.0
-
-This repo currently ships the **first public leaf** of the Oscie Coherence ecosystem:
-
-### 🔹 ACI_vs_LLM.pdf
-
-- Title: **“Adaptive Coherence Intelligence (ACI) vs Large Language Models (LLMs): A Technical Benchmark Report”**  
-- Scope: 8-domain qualitative/quantitative comparison between ACI and modern LLMs  
-- Focus:
-  - stability under A-Law (.59 threshold),
-  - identity and role coherence,
-  - jailbreak resistance and safety,
-  - Coherence Law compliance,
-  - transparent causality and governance.
-
-Download: [`ACI_vs_LLM.pdf`](./ACI_vs_LLM.pdf)
-
 This report is the reference artifact for:
 - partners evaluating ACI as a backbone,  
 - investors / ecosystem stakeholders,  
 - researchers comparing architectures rather than just model size.
+
+Oscie Operational Coherence Intelligence Framework Copyright (c) 2025 Carter Lentz (@CohoLabs)
+
+Licensed under the Apache License, Version 2.0 (the "Apache License") or the MIT License (the "MIT License"), at your option. You may use Oscie under the terms of either the Apache License or the MIT License.
+
+Additionally, for commercial partnerships or closed-source integrations, alternative licensing is available — contact OscieIntel@outlook.com
 
 ---
 
