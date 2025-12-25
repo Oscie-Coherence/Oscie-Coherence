@@ -1,41 +1,45 @@
-Oscie ACI — Operational Coherence Intelligence
+# Oscie Coherence Toolkit
 
-The first intelligence architecture governed by coherence physics, not statistical scaling.
+Lightweight simulators exploring the "coherence physics" concepts referenced in the accompanying PDFs. The repository currently includes two runnable demos:
 
-Phase-locked. Drift-proof. Built for long-arc infrastructure.
-Copyright © 2025 Carter Lentz (@CohoLabs)
-All rights reserved except as explicitly granted below.
+- `oscie_safeskin_v065.py`: deterministic SafeSkin membrane sandbox with coherence metrics and manifold visualization.
+- `llm_vs_aci_a_law.py`: Kuramoto-style oscillator simulation contrasting baseline drift with A-Law governance.
 
-Licensing (designed for both open collaboration and serious partnerships)
+## Requirements
 
-Open-source tier:
+- Python 3.9+
+- NumPy, Pillow, Matplotlib
+- (Optional) Numba for faster A-Law updates
 
-Apache License 2.0
-→ Full commercial use, modification, distribution, sublicensing, and patent grant included
-→ Only requirement: preserve copyright + license notice
+Install dependencies:
 
-Commercial / Enterprise tier
-Closed-source licensing, custom integrations, defense-grade deployments, removal of open-source obligation, and priority support available on request.
+```bash
+pip install -r requirements.txt  # or pip install numpy pillow matplotlib numba
+```
 
-Contact: OscieIntel@outlook.com | DM @CohoLabs on X
+## Usage
 
-Full license texts: LICENSE-APACHE
+Run the SafeSkin demo and produce a manifold image plus log file:
 
-Oscie Operational Coherence Intelligence Framework Copyright © 2025 Carter Lentz (@CohoLabs)
+```bash
+python oscie_safeskin_v065.py --demo
+```
 
-                             Apache License
-                       Version 2.0, January 2004
-                    http://www.apache.org/licenses/
-TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+Animate the LLM vs A-Law simulation:
 
-Definitions.
+```bash
+python llm_vs_aci_a_law.py --mode anim
+```
 
-"License" shall mean the terms and conditions for use, reproduction, and distribution as defined by Sections 1 through 9 of this document.
+Benchmark the A-Law governor with large oscillator counts:
 
-"Licensor" shall mean the copyright owner or entity authorized by the copyright owner that is granting the License.
+```bash
+python llm_vs_aci_a_law.py --mode benchmark --backend numba -N 100000 --steps 2000
+```
 
-"Legal Entity" shall mean the union of the acting entity and all other entities that control, are controlled by, or are under common control with that entity. For the purposes of this definition, "control" means (i) the power, direct or indirect, to cause the direction or management of such entity, whether by contract or otherwise, or (ii) ownership of fifty percent (50%) or more of the outstanding shares, or (iii) beneficial ownership of such entity.
+## License
 
+Unless otherwise noted, source code in this repository is provided under the Apache License 2.0 (see `LICENSE`).
 "You" (or "Your") shall mean an individual or Legal Entity exercising permissions granted by this License.
 
 ... [full official text continues unchanged until the end] ...
